@@ -1,0 +1,46 @@
+.category-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .category-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 10px;
+    width: 90px; 
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.1);
+    background-color: #444;
+  }
+  
+  .category-icon {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .category-card p {
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    font-size: 0.9rem;
+  }
