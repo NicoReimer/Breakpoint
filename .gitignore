@@ -4,6 +4,10 @@
 /reactApp/client/.pnp
 /reactApp/client/.pnp.js
 
+# package-lock files
+/reactApp/client/package-lock.json
+/reactApp/server/package-lock.json
+
 # testing
 /reactApp/client/coverage
 
