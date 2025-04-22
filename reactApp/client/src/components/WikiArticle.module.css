@@ -1,0 +1,44 @@
+/*.article-card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.article-title {
+  font-size: 24px;
+  color: #34495E;
+  margin-bottom: 10px;
+}
+
+.article-content {
+  font-size: 16px;
+  color: #7F8C8D;
+}
+
+*/
+
+/* src/components/WikiArticle.module.css */
+.card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.title {
+  margin-bottom: 10px;
+  color: #e63946;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.6;
+}
